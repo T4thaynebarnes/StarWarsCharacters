@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star wars characters</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <div class="form-group jumbotron">
+      <div class="form-control jumbotron">
+        <label class="form-control" for="name">Enter Character Name</label>
+
+        <input
+          id="name"
+          class="form-control"
+          type="text"
+          placeholder="make up a name of your character"
+        />
+      </div>
+      <div class="form-group jumbotron">
+        <div class="form-control">
+          <label class="form-control" for="profession"
+            >Enter Desired Skillset or Profession</label
+          >
+          <input class="form-control" id="profession" type="text" />
+        </div>
+      </div>
+      <button id="test-btn" class="btn btn-primary mt-2">test</button>
+      <button id="test2-btn" class="btn btn-danger mt-2">post</button>
+    </div>
+    <table class="mt-2 table table-dark jumbotron">
+      <thead></thead>
+      <tbody id="dom-table"></tbody>
+    </table>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
