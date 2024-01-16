@@ -1,57 +1,12 @@
 {
   "StarWarsCharacters": [
     {
-      "name": "Qui-gon Jin",
-      "profession": "Jedi Knight",
-      "id": "1"
+      "id": "4fa9",
+      "name": "A'sareet sett",
+      "profession": "Jedi Knight"
     },
     {
-      "name": "Nomi Sunrider",
-      "profession": "Jedi Knight",
-      "id": "2"
-    },
-    {
-      "name": "A'sharad Hett",
-      "profession": "Jedi Knight",
-      "id": "3"
-    },
-    {
-      "name": "Landonis Balthazar Calrissian",
-      "profession": "Smuggler",
-      "id": "4"
-    },
-    {
-      "name": "Kyle Katarn",
-      "profession": "Spy",
-      "id": "5"
-    },
-    {
-      "name": "Bode Akuna",
-      "profession": "Spy",
-      "id": "6"
-    },
-    {
-      "id": "803a",
-      "name": "master zen",
-      "profession": "fung shwae"
-    },
-    {
-      "id": "dd78",
-      "name": "",
-      "profession": ""
-    },
-    {
-      "id": "a4c2",
-      "name": "mast zallow",
-      "profession": "Old Republic Jedi"
-    },
-    {
-      "id": "66af",
-      "name": "master barnes",
-      "profession": "crazy dude!"
-    },
-    {
-      "id": "08ae",
+      "id": "9c9a",
       "name": "",
       "profession": ""
     }

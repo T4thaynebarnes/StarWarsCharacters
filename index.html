@@ -10,10 +10,13 @@
     />
   </head>
   <body>
-    <div class="form-group jumbotron">
+    <div class="jumbotron">
+      <div>
+        <h1>Always wanted to name a character in Star wars?</h1>
+      </div>
       <div class="form-control jumbotron">
         <label class="form-control" for="name">Enter Character Name</label>
-
+        <!-- input text for name  -->
         <input
           id="name"
           class="form-control"
@@ -26,16 +29,35 @@
           <label class="form-control" for="profession"
             >Enter Desired Skillset or Profession</label
           >
+          <!-- input text for profession -->
           <input class="form-control" id="profession" type="text" />
+          <!-- submit button -->
+          <button id="create-newcharacter-btn" class="btn btn-danger mt-2">
+            Build your character &#128296
+          </button>
         </div>
       </div>
-      <button id="test-btn" class="btn btn-primary mt-2">test</button>
-      <button id="test2-btn" class="btn btn-danger mt-2">post</button>
     </div>
-    <table class="mt-2 table table-dark jumbotron">
-      <thead></thead>
+    <table class="mt-2 table table-striped jumbotron">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Character Name</th>
+          <th>Profession</th>
+          <th>Delete</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
       <tbody id="dom-table"></tbody>
     </table>
+    <!-- card for updating a character -->
+    <div class="jumbotron">
+      <div class="card">
+        <!-- add something here later if i want to like an image -->
+        <div class="card-body"></div>
+      </div>
+    </div>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="index.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
