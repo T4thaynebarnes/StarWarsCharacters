@@ -1,14 +1,14 @@
 {
   "StarWarsCharacters": [
     {
-      "id": "4fa9",
-      "name": "A'sareet sett",
-      "profession": "Jedi Knight"
+      "id": "fa26",
+      "name": "Steven Barnes",
+      "profession": "software dev"
     },
     {
-      "id": "9c9a",
-      "name": "",
-      "profession": ""
+      "id": "cf9b",
+      "name": "Ahsoka",
+      "profession": "Jedi survivor"
     }
   ]
 }
